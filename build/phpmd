@@ -1,0 +1,11 @@
+/Users/adamskiboi/dbwebb-kurser/mvc/me/proj/src/Dice/Game21.php:21	The method playGame21() has a Cyclomatic Complexity of 13. The configured cyclomatic complexity threshold is 10.
+/Users/adamskiboi/dbwebb-kurser/mvc/me/proj/src/Dice/Game21.php:21	The method playGame21() has an NPath complexity of 2048. The configured NPath complexity threshold is 200.
+/Users/adamskiboi/dbwebb-kurser/mvc/me/proj/src/Dice/Game21computer.php:21	The method playGame21() has a Cyclomatic Complexity of 21. The configured cyclomatic complexity threshold is 10.
+/Users/adamskiboi/dbwebb-kurser/mvc/me/proj/src/Dice/Game21computer.php:21	The method playGame21() has an NPath complexity of 14592. The configured NPath complexity threshold is 200.
+/Users/adamskiboi/dbwebb-kurser/mvc/me/proj/src/Dice/Yatzy.php:21	The method playYatzy() has a Cyclomatic Complexity of 14. The configured cyclomatic complexity threshold is 10.
+/Users/adamskiboi/dbwebb-kurser/mvc/me/proj/src/Dice/Yatzy.php:21	The method playYatzy() has an NPath complexity of 896. The configured NPath complexity threshold is 200.
+/Users/adamskiboi/dbwebb-kurser/mvc/me/proj/src/Dice/YatzyDiceHand.php:43	Avoid using undefined variables such as '$rollArray' which will lead to PHP notices.
+/Users/adamskiboi/dbwebb-kurser/mvc/me/proj/src/Dice/YatzyDiceHand.php:44	Avoid using undefined variables such as '$rollArray' which will lead to PHP notices.
+/Users/adamskiboi/dbwebb-kurser/mvc/me/proj/src/Dice/YatzyDiceHand.php:45	Avoid using undefined variables such as '$rollArray' which will lead to PHP notices.
+/Users/adamskiboi/dbwebb-kurser/mvc/me/proj/src/Dice/YatzyDiceHand.php:46	Avoid using undefined variables such as '$rollArray' which will lead to PHP notices.
+/Users/adamskiboi/dbwebb-kurser/mvc/me/proj/src/Dice/YatzyDiceHand.php:47	Avoid using undefined variables such as '$rollArray' which will lead to PHP notices.
