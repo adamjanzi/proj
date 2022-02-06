@@ -48,6 +48,22 @@ class DiceHand
         return $res;
     }
 
+    public function getLastRollArray(): array
+    {
+        $len = count($this->dices);
+        $res = [];
+
+        for ($i = 0; $i < $len; $i++) {
+            if (!isset($_SESSION["diceSides"])) {
+                $res[$i] = $this->dices[$i]->getLastRoll();
+            } else {
+                $res[$i] = $_SESSION["diceSides"][$i];
+            }
+        }
+
+        return $res;
+    }
+
     public function getLastRollSum(): int
     {
         return $this->sum;

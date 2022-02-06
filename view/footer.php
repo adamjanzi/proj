@@ -1,6 +1,6 @@
 </main>
 <footer>
-    <p>This is the footer.</p>
+    <p>Two-Dice Pig - Adam Janzi</p>
 </footer>
 </body>
 </html>

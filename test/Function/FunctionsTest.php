@@ -20,29 +20,14 @@ class FunctionsTest extends TestCase
         $this->assertEmpty($res);
     }
 
-
-
     /**
      * Test the function renderView().
      */
     public function testRenderView()
     {
-        $res = renderView("standard.php");
+        $res = renderView("index.php");
         $this->assertIsString($res);
     }
-
-
-
-    /**
-     * Test the function renderView().
-     */
-    public function testRenderTwigView()
-    {
-        $res = renderTwigView("index.html");
-        $this->assertIsString($res);
-    }
-
-
 
     /**
      * Test the function url().
@@ -53,8 +38,6 @@ class FunctionsTest extends TestCase
         $this->assertIsString($res);
     }
 
-
-
     /**
      * Test the function getBaseUrl().
      */
@@ -64,8 +47,6 @@ class FunctionsTest extends TestCase
         $this->assertIsString($res);
     }
 
-
-
     /**
      * Test the function getCurrentUrl().
      */
@@ -74,8 +55,6 @@ class FunctionsTest extends TestCase
         $res = getCurrentUrl();
         $this->assertIsString($res);
     }
-
-
 
     /**
      * Test the function destroySession().

@@ -1,80 +1,11 @@
 PHPUnit 9.5.13 by Sebastian Bergmann and contributors.
 
-................................................................. 65 / 79 ( 82%)
-..............                                                    79 / 79 (100%)
+.................................                                 33 / 33 (100%)
 
-Time: 00:41.454, Memory: 28.00 MB
+Time: 00:05.259, Memory: 18.00 MB
 
-OK (79 tests, 158 assertions)
+OK (33 tests, 67 assertions)
 
-Generating code coverage report in Clover XML format ... 
-<h1>All Books</h1>
+Generating code coverage report in Clover XML format ... done [00:00.184]
 
-<h2>ID: 1</h2><p>Title: Bibeln</p><p>ISBN: 12345678</p><p>Author: Satan i. Gatan</p><img src='../view/images/Bibeln.jpg' alt='Bibeln'><h2>ID: 2</h2><p>Title: Boken Om Hästar</p><p>ISBN: 11199955</p><p>Author: Hästen Hästensson</p><img src='../view/images/BokenOmHastar.jpg' alt='Boken Om Hästar'><h2>ID: 3</h2><p>Title: Lär Dig Hur Man Kokar Kaffe</p><p>ISBN: 2020202</p><p>Author: Kalle Anka</p><img src='../view/images/KokaKaffe.jpg' alt='Lär Dig Hur Man Kokar Kaffe'>
-<h1>Yatzy Highscore</h1>
-
-<p>ID: 5 | Name: Heja heja | Score: 60</p><p>------------------------------------------</p><p>ID: 2 | Name: Adam | Score: 29</p><p>------------------------------------------</p><p>ID: 3 | Name: Hej | Score: 5</p><p>------------------------------------------</p><p>ID: 1 | Name: Insert Your Name Here | Score: 0</p><p>------------------------------------------</p><p>ID: 4 | Name: Hej | Score: 0</p><p>------------------------------------------</p><p>ID: 6 | Name: Heja heja | Score: 0</p><p>------------------------------------------</p><!doctype html>
-<html>
-    <meta charset="utf-8">
-    <title>No title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="://vendor/bin/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="://vendor/bin/css/style.css">
-</head>
-
-<body>
-
-<header>
-    <nav>
-        <a href="://vendor/bin/">Home</a> |
-        <a href="://vendor/bin/dice">Dice</a> |
-        <a href="://vendor/bin/game21">Game 21</a> |
-        <a href="://vendor/bin/yatzy/destroy">Yatzy</a> |
-        <a href="://vendor/bin/book">Books</a> |
-        <a href="://vendor/bin/highscore">Yatzy Highscore</a>
-    </nav>
-</header>
-<main>
-
-<h1>All Books</h1>
-
-<h2>ID: 1</h2><p>Title: Bibeln</p><p>ISBN: 12345678</p><p>Author: Satan i. Gatan</p><img src='../view/images/Bibeln.jpg' alt='Bibeln'><h2>ID: 2</h2><p>Title: Boken Om Hästar</p><p>ISBN: 11199955</p><p>Author: Hästen Hästensson</p><img src='../view/images/BokenOmHastar.jpg' alt='Boken Om Hästar'><h2>ID: 3</h2><p>Title: Lär Dig Hur Man Kokar Kaffe</p><p>ISBN: 2020202</p><p>Author: Kalle Anka</p><img src='../view/images/KokaKaffe.jpg' alt='Lär Dig Hur Man Kokar Kaffe'></main>
-<footer>
-    <p>This is the footer.</p>
-</footer>
-</body>
-</html>
-<!doctype html>
-<html>
-    <meta charset="utf-8">
-    <title>No title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="://vendor/bin/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="://vendor/bin/css/style.css">
-</head>
-
-<body>
-
-<header>
-    <nav>
-        <a href="://vendor/bin/">Home</a> |
-        <a href="://vendor/bin/dice">Dice</a> |
-        <a href="://vendor/bin/game21">Game 21</a> |
-        <a href="://vendor/bin/yatzy/destroy">Yatzy</a> |
-        <a href="://vendor/bin/book">Books</a> |
-        <a href="://vendor/bin/highscore">Yatzy Highscore</a>
-    </nav>
-</header>
-<main>
-
-<h1>Yatzy Highscore</h1>
-
-<p>ID: 5 | Name: Heja heja | Score: 60</p><p>------------------------------------------</p><p>ID: 2 | Name: Adam | Score: 29</p><p>------------------------------------------</p><p>ID: 3 | Name: Hej | Score: 5</p><p>------------------------------------------</p><p>ID: 1 | Name: Insert Your Name Here | Score: 0</p><p>------------------------------------------</p><p>ID: 4 | Name: Hej | Score: 0</p><p>------------------------------------------</p><p>ID: 6 | Name: Heja heja | Score: 0</p><p>------------------------------------------</p></main>
-<footer>
-    <p>This is the footer.</p>
-</footer>
-</body>
-</html>
-done [00:01.485]
-
-Generating code coverage report in HTML format ... done [00:01.154]
+Generating code coverage report in HTML format ... done [00:00.226]

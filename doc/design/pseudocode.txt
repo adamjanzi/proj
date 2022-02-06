@@ -1,0 +1,29 @@
+IF player presses the roll button 
+    Rolls the two dice as lastRollArray[0] and lastRollArray[1]
+    IF lastRollArray[0] is 1 AND lastRollArray[1] is not 1
+        SET the pigRollScore to 0
+        SET the pigRounds to pigRounds + 1
+    ELSE IF lastRollArray[0] is not 1 AND lastRollArray[1] is 1
+        SET the pigRollScore to 0
+        SET the pigRounds to pigRounds + 1
+    ELSE IF lastRollArray[0] is 1 AND lastRollArray[1] is 1
+        SET the pigRollScore to 0
+        SET the pigRounds to pigRounds + 1
+        SET the pigTotalScore to 0
+    ELSE IF lastRollArray[0] is 6 AND lastRollArray[1] is 6
+        SET the pigTotalScore to pigTotalScore + (pigTotalScore + pigRollScore)
+        SET the pigRollScore to 0
+    ELSE 
+        SET the pigRollScore = pigRollScore + pigRollScore
+END IF
+
+IF player presses the save button
+    SET the pigTotalScore = pigTotalScore + pigRollScore
+    SET the pigRounds = pigRounds + 1
+    SET the pigRollScore = 0
+END IF
+
+IF pigTotalScore + pigRollScore is 100 or more than 100
+    SET the pigRounds to pigRounds + 1
+    Save the pigRounds & name to the highscore. 
+END IF

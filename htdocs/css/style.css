@@ -31,3 +31,63 @@ img {
     max-width: 20%;
     height: auto;
   }
+
+  .pigbuttons {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: Arial;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(53, 53, 53);
+    background-color: #74c7e0;
+    border: solid;
+    border-color: rgb(53, 53, 53);
+    border-width: 1px;
+    border-radius: 7px;
+}
+
+.pigbuttons:hover {
+    background-color: #54a4bd;
+}
+
+.pigbuttons:active {
+  background-color: #54a4bd;
+  transform: translateY(6px);
+}
+
+.pigbuttons:disabled {
+    color: rgba(122, 122, 122, 0.582);
+    background-color: rgba(163, 163, 163, 0.329);
+    border-color: rgba(97, 97, 97, 0.486);
+    cursor: not-allowed;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(77, 114, 163);
+}
+
+li {
+    float: left;
+    border-right: solid;
+    border-color: rgb(32, 65, 107);
+    border-width: 6px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 9px 11px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(40, 84, 141);
+}

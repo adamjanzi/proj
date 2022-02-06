@@ -70,4 +70,21 @@ class DiceHandTest extends TestCase
         $res = $lastClassRes;
         $this->assertEquals($exp, $res);
     }
+
+    /**
+     * Verify that the dicehand gets the correct last roll array.
+     */
+    public function testDiceHandGetLastRollArray()
+    {
+        $numberOfDice = 2;
+        $numberOfSides = 1;
+        $diceHand = new DiceHand($numberOfDice);
+        $diceHand->roll($numberOfSides);
+        $lastRollArray = $diceHand->getLastRollArray();
+        $exp = 1;
+        $res1 = $lastRollArray[0];
+        $res2 = $lastRollArray[1];
+        $this->assertEquals($exp, $res1);
+        $this->assertEquals($exp, $res2);
+    }
 }

@@ -1,6 +1,6 @@
 {
-    "name": "dbwebb/mvc-orm",
-    "description": "A part of the course dbwebb/mvc, ORM.",
+    "name": "dbwebb/mvc-proj",
+    "description": "A part of the course dbwebb/mvc, PROJ.",
     "license": "MIT",
     "autoload": {
         "psr-4": {

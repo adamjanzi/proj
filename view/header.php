@@ -20,13 +20,10 @@ use function Adja20\Functions\url;
 <body>
 
 <header>
-    <nav>
-        <a href="<?= url("/") ?>">Home</a> |
-        <a href="<?= url("/dice") ?>">Dice</a> |
-        <a href="<?= url("/game21") ?>">Game 21</a> |
-        <a href="<?= url("/yatzy/destroy") ?>">Yatzy</a> |
-        <a href="<?= url("/book") ?>">Books</a> |
-        <a href="<?= url("/highscore") ?>">Yatzy Highscore</a>
-    </nav>
+    <ul>
+        <li><a href="<?= url("/") ?>">Home</a></li>
+        <li><a href="<?= url("/twodicepig/destroy") ?>">Play Two-Dice Pig</a></li>
+        <li><a href="<?= url("/pighighscore") ?>">Highscore</a></li>
+    </ul>
 </header>
 <main>
