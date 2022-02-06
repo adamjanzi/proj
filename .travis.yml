@@ -8,8 +8,4 @@ before_script:
     - make install
 
 script:
-<<<<<<< HEAD
     - make test
-=======
-    - make test
->>>>>>> e711e45528f1ea098bcefbaab524db9cdbf6d574
